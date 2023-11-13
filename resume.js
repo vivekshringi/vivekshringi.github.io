@@ -16,10 +16,10 @@
   for(let a = 0; a<5;a++){
   let childDiv1 = document.createElement("img");
   if(count<=a){
-    childDiv1.setAttribute("src","public/images/whitestar.png");
+    childDiv1.setAttribute("src","/whitestar.png");
   }
   else{
-  childDiv1.setAttribute("src","public/images/bluestar.png");
+  childDiv1.setAttribute("src","/bluestar.png");
   }
   div.appendChild(childDiv1);
   document.querySelector('#star').appendChild(p);  
