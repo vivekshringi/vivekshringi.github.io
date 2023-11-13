@@ -1,0 +1,68 @@
+body {
+  font-family: "Aleo";
+}
+a{
+  color: cadetblue;
+}
+
+div.container{
+  display: flex;
+  flex-direction: row;
+}
+
+div.left{
+  padding-top: 200px;
+  min-width: 10%;
+  text-align: center;
+}
+div.center{
+  flex-grow:1;
+  line-height: 1.5rem;
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 2rem;
+}
+div.right{
+  padding-top: 200px;
+  text-align: center;
+}
+.center>img {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border-radius: 10rem;
+  padding:10px
+}
+
+h3 {
+  font-size: medium;
+  color: rgb(23, 22, 22);
+  inline-size: max-content;
+  background-color: rgb(188, 183, 183);
+  border-radius: 3rem;
+  padding: 5px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+#star img {
+  width: 20px;
+  height: 20px;
+}
+
+#star p{
+  font-size: small;
+  background-color: aliceblue;
+  border-radius: 1em;
+  padding: 15px;
+  margin: 10px;
+  line-height: 1.4em;
+}
+#star p>div{
+padding: 2px;
+}
+
